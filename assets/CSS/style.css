@@ -30,9 +30,15 @@ h1{
 }
 /*main content*/
 main{
-    background-color: lightblue;
+    
     /*make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
+}
+/*Hero Section*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 /*footer*/
 footer{
