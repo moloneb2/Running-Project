@@ -23,22 +23,28 @@ body{
 }
 /*Header*/
 header{
-    background-color: lightcoral;
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px black;
 }
 h1{
     font-family: 'Oswald' , sans-serif;
 }
 /*main content*/
 main{
-    
+   
     /*make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
 }
 /*Hero Section*/
 #hero{
+    background: url("../Images/hero-image.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    background-color: lightgreen;
+     
 }
 /*footer*/
 footer{
